@@ -1,0 +1,43 @@
+.dropdown-list{
+   position: absolute;
+    background:red;
+    margin: 100px 0px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.dropdown-list ul{
+    display: none;
+    position: relative;
+    top: 139px; 
+    left:0; 
+}
+.dropdown-list ul li{
+    padding: 10px 5px;
+}
+.dropdown-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-list:hover.dropdown-list ul{
+    display: block;
+    position: absolute;
+    background:black;
+}
+.dropdown-list ul li:hover{
+padding: 10px 5px;
+background: purple;
+}
+.dropdown-list ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.hero{
+    margin-top: 150px;
+}
+.hero img{
+    width: 100%;
+    height: 300px;
+}

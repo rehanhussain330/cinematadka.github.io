@@ -1,0 +1,51 @@
+
+.forminfo{
+   max-width: 400px;
+   margin: 100px auto;
+   background: #f2f2f2;
+   padding: 20px;
+   border-radius: 8px;
+   border: 1px solid;
+}
+.forminfo h3{
+    text-align: center;
+}
+.field{
+    flex: 0 0 150px;
+}
+.field input{
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: none;
+}
+.field input:focus{
+    background: black;
+    color: white;
+}
+.field textarea{
+    padding: 10px;
+    width: 100%;
+    resize: none;
+    border-radius: 8px;
+    border: none;
+    margin:10px 0px;
+}
+.field textarea:focus{
+    background: black;
+    color: white;
+}
+.field button{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+}
+.field button:hover{
+    background: rgb(203, 201, 201);
+    color: red;
+    cursor: pointer;
+}

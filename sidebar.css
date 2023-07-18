@@ -1,0 +1,33 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    flex-wrap: wrap;
+}
+.sidebar{
+    background: rgb(2, 2, 39);
+    width: 50px;
+}
+.nav-list{
+    list-style: none;
+    position: relative;
+    left:-155px;
+}
+.nav-list li{
+padding: 10px 5px;
+}
+.nav-list li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-list li a i{
+    position: relative;
+    left: 156px;
+    font-size: 40px;
+}
+.nav-list li a i:hover{
+position: relative;
+left: 155px;
+color:red;
+}

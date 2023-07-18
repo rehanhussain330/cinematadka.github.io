@@ -1,0 +1,55 @@
+.header{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+    background: white;
+
+}
+
+.list1{
+    list-style: none;
+}
+.list1 li{
+background:red;
+padding: 6px 10px;
+}
+.list1 li a{
+text-decoration: none;
+font-size: 18px;
+color: white;
+position: relative;
+left:1px;
+}
+.list1 li:hover{
+background-color: green;
+color: white;
+}
+
+.list2{
+    display: flex;
+    list-style: none;
+}
+.list2 li{
+    padding:6px 10px;
+    background: red;
+}
+.list2 li:first-child{
+    border-right: 1px solid white;
+}
+.list2 li:hover{
+    background-color: green;
+    padding:6px 10px;
+}
+.list2 li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.list2 li a:hover{
+    color: white;
+}

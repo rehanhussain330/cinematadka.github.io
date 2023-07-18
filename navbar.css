@@ -1,0 +1,62 @@
+.navbar{
+margin: 100px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+background: #f2f2f2;
+}
+.movies{
+    flex: 0 0 100px;
+}
+.movies-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movies-part1 li{
+    flex: 0 0 10px;
+    list-style: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin: 10px;
+    width:200px;
+    text-align: center;
+}
+.movies-part1 li a{
+    text-decoration: none;
+    color: black;
+}
+.movies-part1 li a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.movies-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movies-part2 li{
+    flex: 0 0 10px;
+    list-style: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+.movies-part2 li a{
+    text-decoration: none;
+    color: black;
+}
+.movies-part2 li a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:439px){
+
+}

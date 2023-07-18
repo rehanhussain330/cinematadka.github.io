@@ -1,0 +1,31 @@
+.text-box{
+max-width: 500px;
+padding: 10px 60px;
+}
+.text-box p{
+    margin: 5px 0px;
+}
+.courses{
+    border-top: 5px solid green;
+    margin:10px 0px;
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.courses li{
+    padding: 10px 5px;
+    margin: 10px;
+}
+.courses li a{
+    color:blue;
+    text-decoration: none;
+}
+.courses li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+@media only screen and (max-width:549px){
+    .text-box{
+       padding: 20px;
+    }
+}
